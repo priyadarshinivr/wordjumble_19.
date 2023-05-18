@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/crown_2"
+        app:srcCompat="@drawable/crown_2"
+        tools:layout_editor_absoluteX="956dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/erica_one"
+        android:text="WORD JUMBLE"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="400dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="358dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/button"
+        android
+        android:layout_width="1747dp"
+        android:layout_height="760dp"
+        android:text="Start"
+        android:textSize="300dp"
+        tools:layout_editor_absoluteX="468dp"
+        tools:layout_editor_absoluteY="2947dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/black"
+        android:layout_width="2000dp"
+        android:layout_height="500dp"
+        tools:layout_editor_absoluteX="399dp"
+        tools:layout_editor_absoluteY="1754dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
